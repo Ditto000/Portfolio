@@ -27,7 +27,7 @@ p{
 img {
     display: block;
     margin: auto;
-    width: 20%;
+    width: 15%;
 }
 p{
     font-family: times;
@@ -41,4 +41,31 @@ p{
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 75px;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
 }
